@@ -1,0 +1,17 @@
+bind serviceGroup smsc_smtp_for_nat 10.1.14.15 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.14.103 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.14.104 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.15.113 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.15.114 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.15.116 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.15.117 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.15.118 2525
+bind serviceGroup smsc_smtp_for_nat 10.1.15.119 2525
+bind serviceGroup smsc_smtp_for_nat -monitorName smsc_smtp_for_nat
+bind serviceGroup webquick 10.1.14.77 8888
+bind serviceGroup webquick 10.1.14.78 8888
+bind serviceGroup webquick -monitorName webquick
+bind serviceGroup rsc_rtn_8381 10.1.24.101 8380
+bind serviceGroup rsc_rtn_8381 10.1.24.102 8380
+bind serviceGroup rsc_rtn_8381 -monitorName rsc_rtn_8381
+bind serviceGroup bsm-https-8444 10.1.50.226 8444
